@@ -3,6 +3,9 @@
   "version": "1.6.1-svox.2",
   "description": "Twilio Voice React Native SDK for SimpleVox",
   "main": "lib/commonjs/index",
+  "exports": {
+    "./plugin/withTwilioVoiceIos": "./plugin/withTwilioVoiceIos.cjs"
+  },
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
   "react-native": "src/index",
