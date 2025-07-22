@@ -1,6 +1,6 @@
 {
   "name": "@simplevox/twilio-voice-expo",
-  "version": "1.6.1-svox.3",
+  "version": "1.6.1-svox.4",
   "description": "Twilio Voice React Native SDK for SimpleVox",
   "main": "lib/commonjs/index",
   "exports": {
