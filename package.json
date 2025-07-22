@@ -4,6 +4,7 @@
   "description": "Twilio Voice React Native SDK for SimpleVox",
   "main": "lib/commonjs/index",
   "exports": {
+    ".": "./plugin/withTwilioVoiceIos.cjs",
     "./plugin/withTwilioVoiceIos": "./plugin/withTwilioVoiceIos.cjs"
   },
   "module": "lib/module/index",
