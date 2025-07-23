@@ -21,7 +21,7 @@
   "source": "src/index",
   "files": [
     "plugin",
-    "cjs-entry.cjs"
+    "cjs-entry.cjs",
     "src",
     "lib",
     "android",
