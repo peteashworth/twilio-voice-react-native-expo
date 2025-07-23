@@ -13,7 +13,6 @@ function ensureBackgroundModes(existing = [], required = []) {
 
 module.exports = function withTwilioVoiceIos(config) {
   config = withEntitlementsPlist(config, (c) => {
-    c.modResults['com.apple.developer.voip'] = true;
     c.modResults['aps-environment'] = 'production'; // TODO: make configurable if needed
     return c;
   });
