@@ -170,7 +170,6 @@
   },
   "dependencies": {
     "@twilio/voice-errors": "1.8.0",
-    "bob": "^0.7.5",
     "eventemitter3": "^4.0.7"
   }
 }
