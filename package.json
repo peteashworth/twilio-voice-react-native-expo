@@ -1,17 +1,17 @@
 {
   "name": "@simplevox/twilio-voice-expo",
-  "version": "1.6.1-svox.9",
+  "version": "1.6.1-svox.10",
   "description": "Twilio Voice React Native SDK for SimpleVox",
   "main": "./cjs-entry.cjs",
   "react-native": "src/index",
   "exports": {
-    ".": {
-      "react-native": "./src/index",
-      "require": "./cjs-entry.cjs",
-      "default": "./src/index"
-    },
-    "./plugin/withTwilioVoiceIos": "./plugin/withTwilioVoiceIos.cjs"
+  ".": {
+    "react-native": "./lib/module/index",
+    "require": "./cjs-entry.cjs",
+    "default": "./lib/module/index"
   },
+  "./plugin/withTwilioVoiceIos": "./plugin/withTwilioVoiceIos.cjs"
+},
   "expo": {
     "plugin": "./plugin/withTwilioVoiceIos.cjs"
   },
