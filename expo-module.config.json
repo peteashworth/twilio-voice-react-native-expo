@@ -1,10 +1,10 @@
-{ 
-    "name": "@simplevox/twilio-voice-expo", 
-    "platforms": ["ios", "android"], 
-    "ios": { 
-        "modules": [] 
-    }, 
-    "android": { 
-        "modules": [] 
-    } 
+{
+    "name": "@ashworthhub/twilio-voice-expo",
+    "platforms": ["ios", "android"],
+    "ios": {
+        "modules": []
+    },
+    "android": {
+        "modules": []
+    }
 }

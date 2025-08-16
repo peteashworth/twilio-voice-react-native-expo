@@ -24,7 +24,7 @@ module.exports = function withTwilioVoiceIos(config) {
     );
     c.modResults.NSMicrophoneUsageDescription =
       c.modResults.NSMicrophoneUsageDescription ||
-      'SimpleVox needs microphone access to make and receive business calls.';
+      'Traise needs microphone access to make and receive business calls.';
     return c;
   });
 
