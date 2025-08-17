@@ -1,6 +1,6 @@
 {
   "name": "@ashworthhub/twilio-voice-expo",
-  "version": "1.6.1-svox.11",
+  "version": "1.6.1-expo.1",
   "description": "Twilio Voice React Native SDK for ashworthhub",
   "main": "./cjs-entry.cjs",
   "react-native": "src/index",
