@@ -1,10 +1,4 @@
 {
     "name": "@ashworthhub/twilio-voice-expo",
-    "platforms": ["ios", "android"],
-    "ios": {
-        "modules": []
-    },
-    "android": {
-        "modules": []
-    }
+    "platforms": ["ios", "android"]
 }

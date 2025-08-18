@@ -88,9 +88,33 @@
      *
      * DEFAULT VALUE: no overrideTsconfig section
      */
-    // "overrideTsconfig": {
-    //   . . .
-    // }
+    "overrideTsconfig": {
+      "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+          "@twilio/voice-react-native-sdk": ["./src/index"]
+        },
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react",
+        "lib": ["esnext"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noImplicitUseStrict": false,
+        "noStrictGenericChecks": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "esnext"
+      },
+      "exclude": ["test/**/*"]
+    }
     /**
      * This option causes the compiler to be invoked with the --skipLibCheck option. This option is not recommended
      * and may cause API Extractor to produce incomplete or incorrect declarations, but it may be required when
